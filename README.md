@@ -13,7 +13,7 @@ L'extension est actuellement en cours de validation pour Chrome, Opera et Firefo
   1. Rendez-vous sur la page des extensions en saisissant `chrome://extensions/` ou `opera://extensions/` dans la barre d'adresse (selon le navigateur).
   2. Activez le mode développeur (en haut à droite).
   3. Cliquez sur "Charger l'extension non empaquetée".
-  4. Sélectionnez le dossier décompressé (normalement nommé "static").
+  4. Sélectionnez le dossier décompressé.
   5. Cliquez sur "Sélectionner un dossier".
   6. Accordez les autorisations nécessaires.
   7. Rechargez l'extension en cliquant sur l'icône de la petite flèche circulaire.
