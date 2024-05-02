@@ -1,8 +1,8 @@
-##L'extension que je dev, récupère les informations de l'historique et filre pour récupérer différentes données du site bentomanga (nom du manga lu et possiblement le dernier chapitre lu)
+## L'extension que je dev, récupère les informations de l'historique et filre pour récupérer différentes données du site bentomanga (nom du manga lu et possiblement le dernier chapitre lu)
 
 L'extension est actuellement en cours de validation pour Chrome, Opera et Firefox.
 
-##Pour ceux qui souhaitent récupérer leurs données potentielles en téléchargeant l'extension, voici la marche à suivre :
+## Pour ceux qui souhaitent récupérer leurs données potentielles en téléchargeant l'extension, voici la marche à suivre :
 
 1. **Téléchargez le code source au format ZIP** en cliquant sur le bouton "Download ZIP".
 2. **Décompressez le dossier téléchargé**.
