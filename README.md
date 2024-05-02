@@ -2,7 +2,7 @@
 
 L'extension est actuellement en cours de validation pour Chrome, Opera et Firefox.
 
-## Pour ceux qui souhaitent récupérer leurs données potentielles en téléchargeant l'extension, voici la marche à suivre :
+### Pour ceux qui souhaitent récupérer leurs données potentielles en téléchargeant l'extension, voici la marche à suivre :
 
 1. **Téléchargez le code source au format ZIP** en cliquant sur le bouton "Download ZIP".
 2. **Décompressez le dossier téléchargé**.
