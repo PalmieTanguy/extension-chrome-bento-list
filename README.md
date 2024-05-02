@@ -1,0 +1,1 @@
+web-ext run --source-dir ./build/

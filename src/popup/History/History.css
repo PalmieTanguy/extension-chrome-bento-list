@@ -1,0 +1,54 @@
+/* Définition des couleurs pour le thème sombre */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #333333;
+    --text-color: #cccccc; /* Couleur de police en gris pour le thème sombre */
+    --container-color: #1a1a1a; /* Couleur de fond des conteneurs en gris foncé pour le thème sombre */
+     --background-color-light: rgb(214, 214, 214); /* Couleur de fond claire pour le thème sombre */
+    --background-color-dark: #323232; /* Couleur de fond sombre pour le thème sombre */
+ 
+  }
+}
+
+/* Style pour le conteneur principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--container-color); /* Utilisation de la variable pour la couleur de fond */
+  color: var(--text-color); /* Utilisation de la variable pour la couleur de police */
+}
+
+/* Style pour les éléments de la liste */
+.item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 5px; /* Espacement réduit */
+  padding: 5px; /* Espacement réduit */
+}
+/* Appliquer la couleur de fond appropriée en fonction du thème */
+@media (prefers-color-scheme: dark) {
+  .item {
+    background-color: var(--background-color-dark); /* Utilisation de la couleur de fond sombre pour le thème sombre */
+  }
+}
+/* Style pour le bouton */
+.button {
+  background-color: #B6C3FD;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style pour le bouton au survol */
+.button:hover {
+  background-color: #899cf0;
+}
+
+/* Style pour le titre */
+.title {
+  font-size: 24px;
+  margin-bottom: 10px; /* Espacement réduit */
+}

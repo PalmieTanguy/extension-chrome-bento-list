@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Bento-list",
+  "version": "1.0.0",
+  "description": "Get history of bento manga by browser",
+  "icons": {
+    "16": "logo128.png",
+    "48": "logo128.png",
+    "128": "logo128.png"
+  },
+  "background": {
+    "scripts": [
+      "./static/js/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "./static/js/content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "history"
+  ]
+}
